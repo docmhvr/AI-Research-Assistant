@@ -37,4 +37,6 @@ The specified models from Hugging Face are used for the different tasks:
 1. Enter your research topic, goal, or abstract.
 2. Click the "Let's go!" button to get research recommendations and relevant research papers and their summaries.
 
+## Demo
+![Demo](Demo/Screenshot%20(229).png)
 Make sure you have Ollama installed on your device, with loaded Llama3 model or change as per your need
