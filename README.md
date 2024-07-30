@@ -1,12 +1,10 @@
 # 📄 AI Powered Research Expert
 
-A simple Streamlit app that provides research recommendations and relevant papers based on an entered research goal, topic, or abstract. The app uses open-source models from Hugging Face for language model inference.
+A Streamlit app that provides research recommendations and relevant papers with summaries based on an entered research goal, topic, or abstract. The app uses open-source models run locally using Ollama for text generation and hugging face inference for text summarization tasks.
 
 The specified models from Hugging Face are used for the different tasks:
-- **Chat Model**: `google/flan-t5-small`
+- **Chat Model**: `meta/llama3`
 - **Summarization**: `Falconsai/text_summarization`
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url)
 
 ### How to run it on your own machine
 
@@ -22,7 +20,13 @@ The specified models from Hugging Face are used for the different tasks:
    $ pip install -r requirements.txt
    ```
 
-3. Run the app
+3. Create env file and add your hugging face api
+
+   ```
+   $ HUGGINGFACE_TOKEN = "your_api_key"
+   ```
+
+4. Run the app
 
    ```
    $ streamlit run app.py
@@ -31,4 +35,6 @@ The specified models from Hugging Face are used for the different tasks:
 ## Usage
 
 1. Enter your research topic, goal, or abstract.
-2. Click the "Let's go!" button to get research recommendations and relevant research papers.
+2. Click the "Let's go!" button to get research recommendations and relevant research papers and their summaries.
+
+Make sure you have Ollama installed on your device, with loaded Llama3 model or change as per your need
