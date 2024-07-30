@@ -5,19 +5,24 @@ A simple Streamlit app that provides research recommendations and relevant paper
 The specified models from Hugging Face are used for the different tasks:
 - **Chat Model**: `google/flan-t5-small`
 - **Summarization**: `Falconsai/text_summarization`
-- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2`
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url)
 
 ### How to run it on your own machine
 
-1. Install the requirements
+1. Clone the repository
+
+   ```
+   $ git clone 
+   ```
+
+2. Install the requirements
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+3. Run the app
 
    ```
    $ streamlit run app.py
