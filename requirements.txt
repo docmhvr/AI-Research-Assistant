@@ -1,0 +1,7 @@
+streamlit
+transformers
+tqdm
+arxiv
+sentence-transformers
+python-dotenv
+huggingface-hub
